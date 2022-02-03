@@ -4,7 +4,6 @@ class Node implements NodeInterface
 {
     public $name;
     public $children;
-
     public function __construct(string $name) 
     {
         $this->name = $name;
@@ -33,11 +32,10 @@ class Node implements NodeInterface
 
     function getTree($children)
     {
-        //пройти циклом по дереву для нахождения всех вложенных элементов
-        //возникли сложности с пониманием синтаксиса PHP 
+        //пройти циклом по дереву для нахождения всех вложенных элементов?
         function __toString($sign = "+"): string 
         {
-    
+        //вызов функции для получения дерева произойдет при вызове echo tree?(запустит toString?)
         }
     }
 }
