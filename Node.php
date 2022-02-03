@@ -30,7 +30,7 @@ class Node implements NodeInterface
         }
     }
     
-    function __toString($sign = "+"): string 
+    function __toString(): string 
         {
         //вызов функции для получения дерева произойдет при вызове echo tree?(запустит toString?)
         //присвоение знака вложенности
