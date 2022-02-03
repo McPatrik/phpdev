@@ -29,13 +29,13 @@ class Node implements NodeInterface
             return [];
         }
     }
-
-    function getTree($children)
-    {
-        //пройти циклом по дереву для нахождения всех вложенных элементов?
-        function __toString($sign = "+"): string 
+    
+    function __toString($sign = "+"): string 
         {
         //вызов функции для получения дерева произойдет при вызове echo tree?(запустит toString?)
         }
-    }
+    function getTree($children)
+        {
+            //пройти циклом по дереву для нахождения всех вложенных элементов?
+        }
 }
