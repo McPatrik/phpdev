@@ -34,6 +34,7 @@ class Node implements NodeInterface
     function getTree($children)
     {
         //пройти циклом по дереву для нахождения всех вложенных элементов
+        //возникли сложности с пониманием синтаксиса PHP 
         function __toString($sign = "+"): string 
         {
     
