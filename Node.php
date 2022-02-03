@@ -32,7 +32,8 @@ class Node implements NodeInterface
     
     function __toString(): string 
         {
-        //вызов функции для получения дерева произойдет при вызове echo tree?(запустит toString?)
+        //вызов функции для получения дерева произойдет при вызове echo tree?(toString => getTree)
+        return $this->getTree($children);
         //присвоение знака вложенности
         }
     function getTree($children)
