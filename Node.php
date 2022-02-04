@@ -24,8 +24,7 @@ class Node implements NodeInterface
         if (!empty($this->children[$this->name])) 
         {
             return $this->children[$this->name];
-        } else 
-        {
+        } else  {
             return [];
         }
     }
@@ -34,10 +33,9 @@ class Node implements NodeInterface
         {
         //вызов функции для получения дерева произойдет при вызове echo tree?(toString => getTree)
         return $this->getTree($this->children);
-        //присвоение знака вложенности
         }
     function getTree($children)
-        {
+        {   //присвоение знака вложенности?
             //пройти циклом по дереву для нахождения всех вложенных элементов?
         }
 }
