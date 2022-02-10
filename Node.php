@@ -37,7 +37,11 @@ class Node implements NodeInterface
         //присвоение знака вложенности
         }
     function getTree($children)
-        {
+        {   
+            foreach ($children as $key => $parent) 
+            {
+
+            }
             //пройти циклом по дереву для нахождения всех вложенных элементов?
         }
 }
